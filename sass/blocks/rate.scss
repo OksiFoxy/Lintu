@@ -1,0 +1,50 @@
+.rate {
+  text-transform: uppercase;
+}
+
+.rate__table {
+  border: 2px solid $color-grey-light;
+  border-collapse: collapse;
+}
+
+.rate__table-title {
+  border: 2px solid $color-grey-background;
+  background-color: $color-table-dark;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: $font-color-light;
+  border-bottom: none;
+}
+
+.rate__table-price {
+  border: 2px solid $color-grey-background;
+  background-color: $color-table-dark;
+  font-weight: 300;
+  font-size: $font-size-base;
+  line-height: 30px;
+  color: $font-color-light;
+  border-top: none;
+}
+
+.rate__table-td {
+  background-color: $color-white;
+  border: 2px solid $color-grey-light;
+  border-right: none;
+  font-weight: 300;
+  font-size: $font-size-base;
+  line-height: 30px;
+  color: $font-color-base;
+}
+
+.rate__option {
+  border-left: none;
+}
+
+.rate__ok path {
+  color: $color-ok;
+}
+
+.rate__no path {
+  color: $color-no;
+}

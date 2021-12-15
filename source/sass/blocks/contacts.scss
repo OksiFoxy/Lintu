@@ -1,0 +1,24 @@
+.contacts {
+  background-color: $color-white;
+}
+
+.contacts__title {
+  font-weight: 300;
+  font-size: $font-size-big;
+  line-height: 29px;
+  color: $font-color-base;
+}
+
+.contacts__name {
+  font-weight: 700;
+  font-size: $font-size-middle;
+  line-height: 25px;
+  color: $font-color-base;
+}
+
+.contacts__info {
+  font-weight: 300;
+  font-size: $font-size-big;
+  line-height: 33px;
+  color: $color-pink;
+}

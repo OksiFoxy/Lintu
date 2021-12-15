@@ -1,0 +1,26 @@
+.reviews__author-name {
+  font-weight: 700;
+  font-size: $font-size-middle;
+  line-height: 30px;
+  color: $color-black;
+}
+
+.reviews__text {
+  font-weight: 400;
+  font-size: $font-size-base;
+  line-height: 30px;
+  color: $font-color-base;
+}
+
+.reviews__button {
+  background-color: transparent;
+  border: none;
+}
+
+.slider__toggle {
+  width: 6px;
+  height: 6px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(40, 54, 69, 0.3);
+}

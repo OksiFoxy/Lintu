@@ -1,0 +1,225 @@
+/*Colors*/
+/*Font*/
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../../fonts/opensans.woff2") format("woff2"), url("../../fonts/opensans.woff") format("woff"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/opensans.woff2") format("woff2"), url("../../fonts/opensans.woff") format("woff"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../../fonts/opensansbold.woff2") format("woff2"), url("../../fonts/opensansbold.woff") format("woff"); }
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: #283645;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal; }
+
+img {
+  max-width: 100%; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.page-header__logo-pink path {
+  color: #ffffff; }
+
+.page-header {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #283645; }
+
+.page-header__menu {
+  background-color: transparent;
+  border: none; }
+
+.page-header__menu-brg {
+  color: #ffffff; }
+
+.main-nav {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #283645; }
+
+.downnload {
+  background-image: url("/img/back-mobile.jpg");
+  color: #ffffff; }
+
+.downnload__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px; }
+
+.downnload__item {
+  color: #ffffff; }
+
+.downnload__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px; }
+
+.intro {
+  background-color: #ffffff; }
+
+.intro__title {
+  color: #283645;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%; }
+
+.advantages {
+  background-color: #f2f2f2; }
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000; }
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645; }
+
+.reviews__author-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000; }
+
+.reviews__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645; }
+
+.reviews__button {
+  background-color: transparent;
+  border: none; }
+
+.slider__toggle {
+  width: 6px;
+  height: 6px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(40, 54, 69, 0.3); }
+
+.rate {
+  text-transform: uppercase; }
+
+.rate__table {
+  border: 2px solid #e5e5e5;
+  border-collapse: collapse; }
+
+.rate__table-title {
+  border: 2px solid #f2f2f2;
+  background-color: #283645;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  border-bottom: none; }
+
+.rate__table-price {
+  border: 2px solid #f2f2f2;
+  background-color: #283645;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  border-top: none; }
+
+.rate__table-td {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-right: none;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645; }
+
+.rate__option {
+  border-left: none; }
+
+.rate__ok path {
+  color: #2aab6d; }
+
+.rate__no path {
+  color: #f25b26; }
+
+.contacts {
+  background-color: #ffffff; }
+
+.contacts__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #283645; }
+
+.contacts__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #283645; }
+
+.contacts__info {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #d22856; }
+
+.map {
+  background-color: var(--basic-grey);
+  background-image: url("/source/img/map.png"); }
+
+.page-footer__logo-glasses-footer {
+  color: #d22856; }
+
+.page-footer__logo-pink-footer {
+  color: #283645; }
+
+.social__link {
+  color: #d22856; }
+
+.copyright__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #283645; }
+
+.copyright__link {
+  color: #d22856; }
+
+/*# sourceMappingURL=style.css.map */
