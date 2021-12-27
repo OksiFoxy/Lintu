@@ -3,6 +3,7 @@
   "description": "Личный проект",
   "devDependencies": {
     "editorconfig-cli": "1.0.0",
+    "@htmlacademy/editorconfig-cli": "1.0.0",
     "gulp-autoprefixer": "10.2.5",
     "gulp-browser-sync": "2.26.14",
     "gulp": "4.0.2",

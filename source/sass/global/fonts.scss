@@ -1,29 +1,29 @@
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
   src:
-    url("../../fonts/opensans.woff2") format("woff2"),
-    url("../../fonts/opensans.woff") format("woff");
+  url("../../fonts/Gilroy-Light.ttf") format("ttf"),
+    url("../../fonts/Gilroy.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src:
-    url("../../fonts/opensans.woff2") format("woff2"),
-    url("../../fonts/opensans.woff") format("woff");
+  url("../../fonts/Gilroy-Medium.ttf") format("ttf"),
+    url("../../fonts/Gilroy-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   font-display: swap;
   src:
-    url("../../fonts/opensansbold.woff2") format("woff2"),
-    url("../../fonts/opensansbold.woff") format("woff");
+    url("../../fonts/Gilroy-Bold.ttf") format("ttf"),
+    url("../../fonts/Gilroy-Bold.woff") format("woff");
 }

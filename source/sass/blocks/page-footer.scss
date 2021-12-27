@@ -1,26 +1,11 @@
 .page-footer {
+  width: 1440px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: $color-pink;
-}
-
-.page-footer__logo-glasses-footer {
-  color: $color-pink;
-}
-
-.social__list {
-  display: flex;
-  justify-content: space-around;
-}
-
-.page-footer__logo-pink-footer {
-  color: $font-color-base;
-}
-
-.social__link {
-  color: $color-pink;
+  background-color: $color-difault;
 }
 
 .copyright__text {
@@ -28,16 +13,4 @@
   font-size: $font-size-base;
   line-height: 1.29;
   color: $font-color-base;
-}
-
-.copyright__link {
-  color: $color-pink;
-}
-
-
-@media (min-width: $tablet-width) {
-  .page-footer {
-    flex-direction: row;
-    justify-content: space-between;
-  }
 }

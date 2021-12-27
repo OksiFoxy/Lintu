@@ -1,22 +1,12 @@
-.page-header__logo-pink path {
-  color: $color-white;
+.page-header {
+  height: 150px;
+  margin-bottom: 45px;
+  display: grid;
+  grid-template-columns: 367px 743px;
+  grid-template-rows: 50px 50px 50px;
 }
 
-.page-header__inner {
-  height: 66px;
-  display: flex;
-  opacity: 0.3;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: $font-color-base;
-}
-
-.page-header__menu {
-  background-color: transparent;
-  border: none;
-}
-
-.page-header__menu-brg {
-  color: $color-white;
+.page-header_inner {
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
