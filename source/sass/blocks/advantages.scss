@@ -1,0 +1,25 @@
+.advantages {
+  height: 140px;
+  background-color: $color-difault;
+  border-radius: 25px;
+}
+
+.advantages__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advantages__item {
+  width: 255px;
+  background-color: $color-difault;
+  border-radius: 25px;
+}
+
+.advantages-description {
+  margin: 0px;
+  height: 140px;
+  padding: 20px 30px;
+  color: $font-color-light;
+
+}

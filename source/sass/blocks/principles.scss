@@ -1,0 +1,56 @@
+.principles {
+  height: 335px;
+  margin-bottom: 100px;
+}
+
+.principles__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.principles1 {
+  background-image: url("/./img/drone-price.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.principles2 {
+  background-image: url("/./img/drone-shing.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.principles3 {
+  background-image: url("/./img/drone-food.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.principles4 {
+  background-image: url("/./img/drone-registration.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.principles__item {
+  width: 255px;
+  height: 330px;
+  padding: 30px;
+  border: 3px solid $color-difault;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.principles-description {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: $font-size-middle24;
+  color: $color-black;
+}
